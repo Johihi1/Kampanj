@@ -1,7 +1,40 @@
 body{
     background-color: #C6EEBF;
+    margin: 0;
+    margin-top: 0;
+}
+
+h1, .title{
+    font-family: raleway;
+    color: #080E07;
 }
 
 header{
-    height: 10%;
+    margin-top: 0;
+    margin-left: 0;
+    height: 75px;
+    width: 100%;
+    background-color: #77A571;
+    position: absolute;
+    display: flex;
+}
+
+a, .navbar{
+    font-family: raleway;
+    margin-top: 0;
+    display: flex;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+a:link{
+    color: #080E07;
+}
+
+a:hover{
+    color: #C6EEBF;
+}
+
+div, .main{
+    margin-top: 0;
 }
