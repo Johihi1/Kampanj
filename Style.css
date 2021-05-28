@@ -60,6 +60,7 @@ a > ul > li{
     margin-right: auto;
     display: block;
     padding: 0;
+    z-index: 2;
 }
 
 div, .main{
