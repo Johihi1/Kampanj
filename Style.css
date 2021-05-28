@@ -8,6 +8,8 @@ h1, .title{
     font-family: raleway;
     color: #080E07;
     padding-left: 0.5em;
+    font-size: 33px;
+    white-space: nowrap;
 }
 
 h3 {
