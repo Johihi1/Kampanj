@@ -16,17 +16,6 @@ h3 {
     font-family: raleway;
 }
 
-.batteri {
-    width: 25%;
-    margin-bottom: 0;
-    align-self: center;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding: 0;
-}
-
 header{
     margin: 0 auto;
     height: fit-content;
@@ -59,6 +48,18 @@ a:hover{
 a > ul > li{
     display: inline;
     padding: 40px;
+}
+
+.batteri {
+    width: 25%;
+    margin-bottom: 0;
+    align-self: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 0;
+    
 }
 
 div, .main{
