@@ -31,7 +31,7 @@ a, .navbar{
     margin-top: 0;
     display: flex;
     text-decoration: none;
-    font-size: x-large;
+    font-size: 25px;
     padding-left: 4.5em;
     text-align: center;
     width: inherit;
@@ -60,7 +60,6 @@ a > ul > li{
     margin-right: auto;
     display: block;
     padding: 0;
-    
 }
 
 div, .main{
