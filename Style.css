@@ -50,20 +50,32 @@ a > ul > li{
     padding: 40px;
 }
 
-.batteri {
+.container > .batteri {
+    position: fixed;
     height: auto;
-    width: 600px;
-    margin-bottom: 0;
-    align-self: center;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    width: 500px;
+    margin: 5% auto;
+    margin-top: 0;
+    left: 0;
+    right: 0;
     display: block;
     padding: 0;
     z-index: 2;
 }
 
-div, .main{
+.container > .skog {
+    z-index: 1;
+    display: block;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    height: 500px;
+    width: auto;
+    opacity: 82%;
+}
+
+.main{
     display: block;
     margin-top: 0;
     margin-right: auto;
