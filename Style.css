@@ -2,11 +2,12 @@ body{
     background-color: #C6EEBF;
     margin: 0;
     padding: 0;
+    color: whitesmoke;
 }
 
 h1, .title{
     font-family: raleway;
-    color: #080E07;
+    color: whitesmoke;
     padding-left: 0.5em;
     font-size: 33px;
     white-space: nowrap;
@@ -48,10 +49,11 @@ a:hover{
 a > ul > li{
     display: inline;
     padding: 40px;
+    color: whitesmoke;
 }
 
 .container > .batteri {
-    position: fixed;
+    position: absolute;
     height: auto;
     width: 500px;
     margin: 5% auto;
@@ -72,7 +74,7 @@ a > ul > li{
     margin-top: 0;
     height: 500px;
     width: auto;
-    opacity: 82%;
+    opacity: 75%;
 }
 
 .main{
@@ -87,9 +89,11 @@ a > ul > li{
     width: 95%;
     height: fit-content;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: whitesmoke;
 }
 
 p{
     font-family: raleway;
     font-size: 19px;
+    color: whitesmoke;
 }
